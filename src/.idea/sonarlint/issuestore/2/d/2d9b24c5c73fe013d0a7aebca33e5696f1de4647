@@ -1,0 +1,14 @@
+
+7
+java:S1643
+"Use a StringBuilder instead.(‹ÈÌñúÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(©Û¹Ëşÿÿÿÿ
+p
+java:S4276"[Refactor this code to use the more specialised Functional Interface 'UnaryOperator<String>'(óÛ
+m
+java:S4276"WRefactor this code to use the more specialised Functional Interface 'Predicate<String>'(ş¿Í·
+F
+java:S1611"0Remove the parentheses around the "s1" parameter(ş¿Í·
+\
+java:S1126"AReplace this if-then-else statement by a single return statement.(®ã€ùÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(öúÄâùÿÿÿÿ
