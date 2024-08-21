@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<head>
+    <title>Fruits Basket</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<a href="#page footer">Go to footer</a>
+<!--target=blank implies to land on a new page-->
+<h1>Fruits for Sale</h1>
+<img src="">
+<ul>
+    <li>Mango</li>
+    <li>Apple</li>
+    <li>Orange</li>
+    <li>Banana</li>
+    <li>Watermelon</li>
+</ul>
+<a href="https://www.google.co.uk/chrome/" target="_blank">Google</a>
+<div id="body">
+    <video width="320" height="240" controls>
+        <source src="videos/Video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</div>
+<div id="page footer">
+    <p>Page Footer</p>
+    <table border="1px">
+        <thead>
+        <tr>
+            <th rowspan="2">Name of the fruit</th>
+            <th rowspan="2">Price</th>
+            <th rowspan="2">Quantity</th>
+            <th colspan="2">Type</th>
+
+        </tr>
+        <th>Organic</th>
+        <th>Non-Organic</th>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Mango</td>
+            <td>£1.00</td>
+            <td>10</td>
+            <td colspan="2">Organic</td>
+        </tr>
+        <tr>
+            <td>Apple</td>
+            <td>£0.50</td>
+            <td>20</td>
+            <td colspan="2">Non-Organic</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+</br>
+<h2>Fill the below form:</h2>
+<form action="http://localhost:8080" method="post">
+    <label>Enter your name:</label>
+    <input type="text" name="name" placeholder="Enter your name">
+    <br>
+    <label>Enter passowrord:</label>
+    <input type="password" name="password" required>
+    <br>
+    <label>Enter your email:</label>
+    <input type="email" name="email" pattern="^[a-zA-Z0-9.@]+$" title="No special characters please"> <!--pattern ^ = start of string,+=one or more occurrences of the chars mentioned $= end of string-->
+    <br>
+    <label>Enter your address:</label>
+    <textarea name="address" maxlength="100"></textarea>
+    <br>
+    <label for="country">
+        Select your country:
+    </label>
+        <select id="country" name="country">
+            <option value="India">India</option>
+            <option value="UK">UK</option>
+            <option value="USA">USA</option>
+        </select>
+    <br>
+    <label>Female</label>
+    <input type="radio" name="gender" value="female">
+    <label>Male</label>
+    <input type="radio" name="gender" value="male">
+    <br>
+    <label>Enter your age:</label>
+    <input type="number" name="number" min="1" max="60">
+    <br>
+    <label>Rate out App:</label>
+    <input type="range" name="range" min="1" max="10" step="1">
+    <br>
+    <input type="checkbox" name="checkbox" value="checkbox">I agree to the terms and conditions
+    <br>
+    <input type="submit" name="submit" value="Submit">
+</form>
+</body>
+</html>
